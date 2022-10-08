@@ -1,0 +1,42 @@
+nav.navbar{
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'DM Sans';
+}
+div.logo{
+  text-align: center;
+  width: 30%;
+}
+.logo h1{
+  color: var(--text-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 47px;
+}
+.logo span{
+  color: var(--positive-color);
+}
+ul{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+li{
+  list-style: none;
+}
+label.nav-link{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--text-color);
+  transition: 0.8s;
+}
+label.nav-link:hover{
+  color: var(--positive-color);
+}
