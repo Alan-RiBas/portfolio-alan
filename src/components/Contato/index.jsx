@@ -40,6 +40,7 @@ export default class Contato extends Component{
             <div className='campo-msg'>
               <label for="menssagem">Menssagem</label>
               <textarea required rows="5" cols="33" name="menssagem" id="menssagem"/>
+              <button type="submit">Enviar</button>
             </div>
           </div>
         </form>

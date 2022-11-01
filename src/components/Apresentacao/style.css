@@ -218,7 +218,7 @@
 
 
 /* Site em mobile*/
-@media (min-width: 360px)and (max-width: 760px) {
+@media (min-width: 360px) and (max-width: 760px) {
   section.apresentacao{
     width: 80%;
     height: 500px;

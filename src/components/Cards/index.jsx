@@ -13,7 +13,7 @@ export default function Cards({image, title, subtitle, parag, link}){
         <h2>{title}</h2>
         <h3>{subtitle}</h3>
         <p>{parag}</p>
-        <a href={link}>Abrir projeto</a>
+        <button><a href={link}>Abrir projeto</a></button>
       </div>
     </div>
   );
