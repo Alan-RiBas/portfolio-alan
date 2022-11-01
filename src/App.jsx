@@ -16,6 +16,7 @@ function App() {
         <Header/>
         <Apresentacao/>      
         <Sobre/> 
+        <Projetos/>
         <Contato/>
     </div>
   );

@@ -9,7 +9,7 @@ export class Apresentacao extends Component{
     return(
       <section className='apresentacao'>
         <div className='cartao-visita'>
-          <div>
+          <div className='nome'>
             <h1>Olá, Eu sou</h1>
             <h1>Alan Ribas</h1> 
           </div>

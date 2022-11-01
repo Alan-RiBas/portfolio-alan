@@ -15,8 +15,10 @@ form{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 3rem;
   color: #fff;
-
+  border-bottom: solid 3px #6a3093;
+  margin-bottom: 1.5rem;
 }
 .formulario-area{
   width: 100%;

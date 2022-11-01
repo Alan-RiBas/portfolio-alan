@@ -11,7 +11,7 @@ export class Header extends Component{
         </div>
         <ul>
           <li><a className='nav-link' href="#sobre">Sobre mim</a></li>
-          <li><a className='nav-link' href="">projetos</a></li>
+          <li><a className='nav-link' href="#projetos">projetos</a></li>
           <li><a className='nav-link' href="#contato">Contate me</a></li>
         </ul>
       </nav>
