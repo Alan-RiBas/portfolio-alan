@@ -1,0 +1,50 @@
+.projetos{
+  width: 80%;
+  height: 100vw;
+}
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.cards{
+
+  display:block;
+  width:10%;
+  height: 20%;
+  margin:0;
+  background:#171009;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:left top;
+}
+.card{
+  display:block;
+  padding:5px;
+  background:#cab;
+  transform:rotate(90deg);
+  transform-origin: right top;
+}
+
+.squares{
+  padding:60px 0 0 0;
+}
+
+.squares > div{
+  width: 400px;
+  height:720px;
+  margin:30px;
+}
+
+.rectangles{
+  top:0;
+  padding:100px 0 0 0;
+}
+.rectangles > div{
+  width:400px;
+  height:720px;
+  margin:50px 10px;
+  padding:5px;
+  background:#cab;
+  transform:rotate(90deg) translateY(80px);
+  transform-origin: right top;
+}

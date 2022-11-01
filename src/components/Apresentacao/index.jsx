@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import './style.css';
 
 export class Apresentacao extends Component{
@@ -11,7 +11,7 @@ export class Apresentacao extends Component{
         <div className='cartao-visita'>
           <div>
             <h1>Olá, Eu sou</h1>
-            <h1>Alan Batista de oliveira Ribas</h1> 
+            <h1>Alan Ribas</h1> 
           </div>
           <p>Desenvolvedor Front-end</p>
           <a href='#'>Baixar CV</a>

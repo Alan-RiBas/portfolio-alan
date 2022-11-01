@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import './style.css';
 
 export class Header extends Component{
@@ -7,12 +7,12 @@ export class Header extends Component{
     return(
       <nav className='navbar'>
         <div className='logo'>
-          <h1>Front-end <span>Alan</span></h1>
+          <h1>Front-end <span>DEV</span></h1>
         </div>
         <ul>
-          <li><label className='nav-link' for="">Sobre mim</label></li>
-          <li><label className='nav-link' for="">projetos</label></li>
-          <li><label className='nav-link' for="">Contate me</label></li>
+          <li><a className='nav-link' href="#sobre">Sobre mim</a></li>
+          <li><a className='nav-link' href="">projetos</a></li>
+          <li><a className='nav-link' href="#contato">Contate me</a></li>
         </ul>
       </nav>
     );
