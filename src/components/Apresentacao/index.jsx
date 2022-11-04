@@ -14,7 +14,7 @@ export class Apresentacao extends Component{
             <h1>Alan Ribas</h1> 
           </div>
           <p>Desenvolvedor Front-end</p>
-          <a href='#'>Baixar CV</a>
+          <a href='Curriculo Alan Ribas.pdf' download="Curriculo Alan Ribas.pdf">Baixar CV</a>
         </div>
         <div className='box'>
           <div className='alan-img'>  
