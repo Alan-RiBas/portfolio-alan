@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import './style.css';
 
 export default function Cards({image, title, subtitle, parag, link}){

@@ -4,7 +4,7 @@ import { Header } from './components/Header';
 import { Apresentacao } from './components/Apresentacao';
 import { Sobre } from './components/Sobre';
 import { Projetos } from "./components/Projetos";
-import Contato  from './components/Contato';
+import {Contato}  from './components/Contato';
 
 
 
