@@ -1,21 +1,50 @@
 import React,{useRef} from "react";
 import emailjs from '@emailjs/browser';
 
+import {toast} from 'react-toastify/dist/ReactToastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 import './style.css';
 // import Mensagem from '../Mensagens/Mensagem';
 
 export function Contato(){
 
+  const notifySuccess = (msg) => {
+    toast.success(msg, {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  };
+  const notifyError = (msg) => {
+    toast.error(msg, {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  };
+  
   const form = useRef();    
   
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     emailjs.sendForm('service_7sh06bo', 'template_886awwj', form.current, 'IDw5fJyVbHSyJb-2X')
-      .then((result) => {
-        alert("Email enviado com sucesso!");
+    .then((result) => {
+        alert('Email enviado com sucesso!');
       }, (error) => {
-         alert("Houve algum erro ao enviar o email");
+        alert("Ocorreu um erro ao enviar email.");
       });
   };
 
