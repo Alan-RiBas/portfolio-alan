@@ -2,6 +2,7 @@ import React,{useRef} from "react";
 import emailjs from '@emailjs/browser';
 
 import './style.css';
+// import Mensagem from '../Mensagens/Mensagem';
 
 export function Contato(){
 
@@ -12,10 +13,9 @@ export function Contato(){
 
     emailjs.sendForm('service_7sh06bo', 'template_886awwj', form.current, 'IDw5fJyVbHSyJb-2X')
       .then((result) => {
-          console.log(result.text);
-          alert("Email enviado com sucesso.");
+        alert("Email enviado com sucesso!");
       }, (error) => {
-          console.log(error.text);
+         alert("Houve algum erro ao enviar o email");
       });
   };
 
