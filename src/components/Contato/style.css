@@ -112,8 +112,10 @@ form{
   line-height: 18px;
   color: var(--text-color);
   transition: .8s;
+  border: none;
 }
 
 .campo-msg button{
+  cursor: pointer;
   background-color: #0e7639;
 }
